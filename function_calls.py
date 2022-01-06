@@ -13,5 +13,5 @@ def login(email,password):
         if password == user['password']:
             return "login"
         else:
-            return "incorrect username or password"
+            return "incorrect email or password"
 print(login('arkajitdatta2010@gmail.com','12345678'))
